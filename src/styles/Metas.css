@@ -1,0 +1,91 @@
+:root {
+    --white: #FFFFFF;
+    --green-light: #1C9675;
+    --green-p: #117A7A;
+    --red-r: #B2324A;
+    --white-obs: #D9D9D9;
+    --black: #1B1C1F;
+
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 auto;
+    background-color: var(--black);
+}
+
+input {
+    width: 587px;
+    padding: 16px 20px;
+    background-color: var(--white-obs);
+
+}
+
+.cajaM {
+    color: var(--white);
+    padding: '10px';
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    padding: 10px 16px;
+    background-color: var(--green-light);
+    color: var(--white)
+}
+
+.parrafos {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+
+}
+
+.pr1 {
+    display: flex;
+    width: 334px;
+    padding: 10px 16px;
+    align-items: flex-start;
+    gap: 10px;
+    background-color: var(--white-obs);
+    border-radius: 10px;
+    color: var(--green-p);
+    border: 1px solid;
+    border-color: var(--white-obs);
+
+}
+
+.pr2 {
+    display: flex;
+    width: 334px;
+    padding: 10px 16px;
+    align-items: flex-start;
+    gap: 10px;
+    background-color: var(--white-obs);
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: var(--white-obs);
+    color: var(--red-r)
+}
+
+.metasList {
+    width: 800px;
+    padding: 16px 20px;
+    background-color: var(--white-obs);
+    color: var(--black);
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.tareas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
